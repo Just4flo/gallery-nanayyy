@@ -1,0 +1,11 @@
+/* styles/globals.css */
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* styles/globals.css */
+.sidebar-item:hover {
+  background-color: rgba(75, 85, 99, 0.2); /* Menambahkan warna latar belakang transparan saat hover */
+}

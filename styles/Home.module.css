@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fdf6f9;
+  text-align: center;
+  padding: 20px;
+}
+
+.welcome {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #d63384;
+  margin-bottom: 20px;
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.bounce {
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.button {
+  background-color: #e83e8c;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c82365;
+}
